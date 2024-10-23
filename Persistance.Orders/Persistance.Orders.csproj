@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application.Orders\Application.Orders.csproj" />
+    <ProjectReference Include="..\Domain.Orders\Domain.Orders.csproj" />
+  </ItemGroup>
+
 </Project>
